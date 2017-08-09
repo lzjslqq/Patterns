@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "创建型模式", "创建型模式", "{8F3850D9-819F-4B17-BAA2-B5FAC67769E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "结构性模式", "结构性模式", "{A4695F6A-32FF-4388-AF7A-75051ACD714D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "行为型模式", "行为型模式", "{66E66ED2-289E-4F1D-8256-298E0EF1DD40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.单例模式", "1单例模式\1.单例模式.csproj", "{1AF9F948-892D-4EAF-8F68-3EB8FC42C4A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.简单工厂", "2.简单工厂\2.简单工厂.csproj", "{2A519B2A-E1FE-42CD-972F-3EDF5BA5347C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.工厂方法", "3.工厂方法\3.工厂方法.csproj", "{F9EE7CC9-605B-4B47-8D6F-BB54117439F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.抽象工厂", "4.抽象工厂\4.抽象工厂.csproj", "{60D7ADEC-3B21-4FCB-BF0C-EAE0A0BE9E77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AF9F948-892D-4EAF-8F68-3EB8FC42C4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF9F948-892D-4EAF-8F68-3EB8FC42C4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF9F948-892D-4EAF-8F68-3EB8FC42C4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF9F948-892D-4EAF-8F68-3EB8FC42C4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A519B2A-E1FE-42CD-972F-3EDF5BA5347C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A519B2A-E1FE-42CD-972F-3EDF5BA5347C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A519B2A-E1FE-42CD-972F-3EDF5BA5347C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A519B2A-E1FE-42CD-972F-3EDF5BA5347C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9EE7CC9-605B-4B47-8D6F-BB54117439F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9EE7CC9-605B-4B47-8D6F-BB54117439F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9EE7CC9-605B-4B47-8D6F-BB54117439F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9EE7CC9-605B-4B47-8D6F-BB54117439F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D7ADEC-3B21-4FCB-BF0C-EAE0A0BE9E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D7ADEC-3B21-4FCB-BF0C-EAE0A0BE9E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D7ADEC-3B21-4FCB-BF0C-EAE0A0BE9E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D7ADEC-3B21-4FCB-BF0C-EAE0A0BE9E77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1AF9F948-892D-4EAF-8F68-3EB8FC42C4A3} = {8F3850D9-819F-4B17-BAA2-B5FAC67769E1}
+		{2A519B2A-E1FE-42CD-972F-3EDF5BA5347C} = {8F3850D9-819F-4B17-BAA2-B5FAC67769E1}
+		{F9EE7CC9-605B-4B47-8D6F-BB54117439F9} = {8F3850D9-819F-4B17-BAA2-B5FAC67769E1}
+		{60D7ADEC-3B21-4FCB-BF0C-EAE0A0BE9E77} = {8F3850D9-819F-4B17-BAA2-B5FAC67769E1}
+	EndGlobalSection
+EndGlobal
