@@ -41,11 +41,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseLogger.cs">
+      <DependentUpon>ILogger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseLoggerFactory.cs" />
+    <Compile Include="DatabaseLoggerFactory_Simple.cs" />
+    <Compile Include="FileLogger.cs">
+      <DependentUpon>ILogger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileLoggerFactory.cs" />
+    <Compile Include="ILogger.cs" />
+    <Compile Include="ILoggerFactory.cs" />
+    <Compile Include="LoggerFactory_Simple.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="总结.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
