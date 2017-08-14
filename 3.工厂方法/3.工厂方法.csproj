@@ -44,12 +44,16 @@
     <Compile Include="DatabaseLogger.cs">
       <DependentUpon>ILogger.cs</DependentUpon>
     </Compile>
-    <Compile Include="DatabaseLoggerFactory.cs" />
+    <Compile Include="DatabaseLoggerFactory.cs">
+      <DependentUpon>ILoggerFactory.cs</DependentUpon>
+    </Compile>
     <Compile Include="DatabaseLoggerFactory_Simple.cs" />
     <Compile Include="FileLogger.cs">
       <DependentUpon>ILogger.cs</DependentUpon>
     </Compile>
-    <Compile Include="FileLoggerFactory.cs" />
+    <Compile Include="FileLoggerFactory.cs">
+      <DependentUpon>ILoggerFactory.cs</DependentUpon>
+    </Compile>
     <Compile Include="ILogger.cs" />
     <Compile Include="ILoggerFactory.cs" />
     <Compile Include="LoggerFactory_Simple.cs" />

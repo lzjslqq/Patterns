@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,11 +42,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppConfigHelper.cs" />
+    <Compile Include="具体产品\SpringButton.cs" />
+    <Compile Include="具体产品\SpringComboBox.cs" />
+    <Compile Include="具体产品\SpringTextField.cs" />
+    <Compile Include="具体产品\SummerButton.cs" />
+    <Compile Include="具体产品\SummerComboBox.cs" />
+    <Compile Include="具体产品\SummerTextField.cs" />
+    <Compile Include="具体工厂\SpringSkinFactory.cs" />
+    <Compile Include="具体工厂\SummerSkinFactory.cs" />
+    <Compile Include="抽象产品\IButton.cs" />
+    <Compile Include="抽象产品\IComboBox.cs" />
+    <Compile Include="抽象产品\ITextField.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="抽象工厂\ISkinFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="总结.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
