@@ -47,7 +47,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.模板方法模式", "模
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.策略模式", "策略模式\5.策略模式.csproj", "{9EF3F238-0EBF-41EB-B116-F4515E6B496F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.命令模式", "命令模式\2.命令模式.csproj", "{103971F5-C48B-40E6-A654-9C844F1900F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.命令模式", "命令模式\6.命令模式.csproj", "{103971F5-C48B-40E6-A654-9C844F1900F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
